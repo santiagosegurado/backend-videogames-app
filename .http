@@ -1,0 +1,32 @@
+// API RAWG
+
+
+// Get All Games
+GET  https://api.rawg.io/api/games?key=3021004ee9304d84aad08edd5c559b38 HTTP/1.1
+
+##### 
+
+// Get games by query
+GET https://api.rawg.io/api/games?key=3021004ee9304d84aad08edd5c559b38&search=God of War HTTP/1.1
+
+
+#####
+
+// Get single game by id
+GET https://api.rawg.io/api/games/29179?key=3021004ee9304d84aad08edd5c559b38 HTTP/1.1
+
+
+#####
+
+// Get genrens
+GET https://api.rawg.io/api/genres?key=3021004ee9304d84aad08edd5c559b38 HTTP/1.1
+
+
+################
+
+// API Videogames
+
+// Genres 
+
+// Get all genres from de DB
+GET http://localhost:3001/genres HTTP/1.1
